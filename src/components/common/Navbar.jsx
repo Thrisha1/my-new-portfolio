@@ -10,7 +10,7 @@ function Navbar() {
   }
 
   return (
-    <div>
+    <div className='z-20 fixed w-full navbar bg-white'>
       <nav className="flex md:justify-around justify-between md:px-8 md:py-4 p-4 items-center">
         <div className="flex space-x-2">
           <Image className='md:flex hidden' src="/T_logo.png" alt="logo" width={40} height={40} />

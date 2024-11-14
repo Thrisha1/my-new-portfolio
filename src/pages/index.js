@@ -1,6 +1,7 @@
 import Image from "next/image";
 import localFont from "next/font/local";
 import HomePage from "../components/ui/HomePage.jsx";
+import Background from "@/components/common/Background.jsx";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,6 +17,7 @@ const geistMono = localFont({
 export default function Home() {
   return (
     <div className="bg-[#FFF7ED] h-screen text-black">
+      <Background/>
       <HomePage/>
     </div>
   );
